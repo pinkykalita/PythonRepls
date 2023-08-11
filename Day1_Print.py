@@ -1,8 +1,14 @@
+#Basic print function
 print("Hi i am learning\nPython")  #use of new line \n
 print("This is how" + " strings are " + "concatenated")  #to concatenate use +
+
+#Data types/Variables
 name = input("What is your name? ")  #input(prompt) function takes user's input
 print("Hello " + name + " " + input("What is your Surname? ") +"!")  #this will take user input(name)and print Hello name!
 
+#Defining multiple variables in single line
+b, c, d = "this", 4, "text"
+print(b, c, d)
 
 #Get name input and print all characters in the name 1 by 1
 name = input("What is your Country Name? ")

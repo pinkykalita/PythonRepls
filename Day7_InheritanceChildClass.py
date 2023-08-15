@@ -5,7 +5,7 @@ class ChildClass(calculator): #syntax to import the parent class
     num2=50
 
     def __init__(self): #always the first step is to call the Parent class constructor. so create a new child class constructor
-        calculator. __init__(self)
+        calculator. __init__(self)  #initializing parent class constructor
 
     def getcompletedata(self):
         return self.add()+ self.num2

@@ -74,3 +74,32 @@ new_dict[1]="pinky kalita" #defing key 1 and assigning value "Pinky kalita"
 new_dict["age"] = 34 #defining key "age" and assigning value 34
 print(new_dict) #{1: 'pinky kalita', 'age': 34}
 print(new_dict[1]) #pinky kalita ->reading value of key 1
+
+#String data type
+teststring = "Python Tutorials"
+print(teststring[0])#P
+print(teststring[0 : 6])#Python. To print substring
+
+#check if 1 string is present in another string
+str1 = "testing"
+str2 = "Python automation testing"
+str3 = "pinky"
+print(str1 in str2) #checks if str1 is present in str2. if yes then it will print True otherwise False
+print(str3 in str2)
+
+#split a string
+splitstring = str2.split("o") #splits str2 on character o
+print(splitstring) #['Pyth', 'n aut', 'mati', 'n testing']
+splitstring2 = str2.split(" ")
+print(splitstring2) #['Python', 'automation', 'testing']
+var = splitstring2[0] #Extract value at 0th index and store in a new variable
+print(var) #Python
+
+#to remove/trim leading/trailing space from the string
+str4 = "  Testing  "
+print(str4.strip()) #Testing without any leading or trailing space
+print(str4.lstrip()) #Testing  : only leading space(left side) will be removed
+print(str4.rstrip()) #  Testing: only trailing(right side) space will be removed
+
+
+
